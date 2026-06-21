@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Create New Post</title>
+    <link rel="stylesheet" href="/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Create New Post</h1>
+
+      <form method="POST" action="/posts">
+        <input
+          type="text"
+          name="username"
+          placeholder="Enter username"
+          required
+        />
+        <textarea
+          name="content"
+          placeholder="Write your post..."
+          required
+        ></textarea>
+        <button type="submit" class="primary-btn">Submit Post</button>
+      </form>
+
+      <a class="back-link" href="/posts">← Back to Posts</a>
+    </div>
+  </body>
+</html>

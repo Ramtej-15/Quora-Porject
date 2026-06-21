@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Edit Post</title>
+    <link rel="stylesheet" href="/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Edit Post</h1>
+
+      <p><strong>Username:</strong> @<%= post.username %></p>
+
+      <form method="POST" action="/posts/<%= post.id %>?_method=PATCH">
+        <textarea name="content" required><%= post.content %></textarea>
+        <button type="submit" class="primary-btn">Update Post</button>
+      </form>
+
+      <a class="back-link" href="/posts">← Back to Posts</a>
+    </div>
+  </body>
+</html>

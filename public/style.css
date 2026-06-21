@@ -1,0 +1,134 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body */
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background: #f4f6f9;
+  padding: 40px;
+}
+
+/* Container */
+.container {
+  max-width: 800px;
+  margin: auto;
+}
+
+/* Heading */
+h1 {
+  text-align: center;
+  margin-bottom: 30px;
+  color: #2c3e50;
+}
+
+/* Post Card */
+.post {
+  background: #ffffff;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+/* Username */
+.user {
+  color: #3498db;
+  margin-bottom: 10px;
+}
+
+/* Content */
+.content {
+  margin-bottom: 15px;
+  line-height: 1.6;
+}
+
+/* Buttons container */
+.actions {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+/* General buttons */
+button,
+.view-btn,
+.edit-btn,
+.create-btn,
+.primary-btn,
+.delete-btn {
+  padding: 8px 14px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 14px;
+  display: inline-block;
+}
+
+/* Specific buttons */
+.view-btn {
+  background: #2ecc71;
+  color: white;
+}
+
+.edit-btn {
+  background: #f39c12;
+  color: white;
+}
+
+.delete-btn {
+  background: #e74c3c;
+  color: white;
+}
+
+.create-btn {
+  margin-top: 20px;
+  background: #3498db;
+  color: white;
+}
+
+.primary-btn {
+  background: #3498db;
+  color: white;
+}
+
+/* Forms */
+form {
+  margin-top: 15px;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+}
+
+textarea {
+  min-height: 120px;
+  resize: vertical;
+}
+
+/* Back link */
+.back-link {
+  display: inline-block;
+  margin-top: 20px;
+  text-decoration: none;
+  color: #555;
+}
+
+/* Hover effects */
+button:hover,
+.view-btn:hover,
+.edit-btn:hover,
+.create-btn:hover,
+.primary-btn:hover {
+  opacity: 0.85;
+}
